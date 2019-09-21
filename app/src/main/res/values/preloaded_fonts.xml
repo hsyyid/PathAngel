@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/averia_libre_light</item>
+        <item>@font/cantora_one</item>
+        <item>@font/montserrat</item>
+        <item>@font/roboto_slab_thin</item>
+    </array>
+</resources>
