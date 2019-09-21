@@ -3,10 +3,10 @@ from flask import make_response, jsonify
 import googlemaps
 from datetime import datetime
 
-gmaps = googlemaps.Client(key='<key>')
+gmaps = googlemaps.Client(key='***REMOVED***')
 
 
-def sort(request):
+def get_path(request):
     """Responds to any HTTP request.
     Args:
         request (flask.Request): HTTP request object.
