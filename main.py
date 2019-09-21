@@ -34,3 +34,17 @@ def get_path(request):
     # RETURN BEST PATH
 
     return make_response(jsonify(message='Done'), 200)
+
+
+if __name__ == "__main__":
+    from flask import Flask, request
+
+    app = Flask(__name__)
+
+
+    @app.route('/')
+    def index():
+        return get_path(request)
+
+
+    app.run('127.0.0.1', 8000, debug=True)
