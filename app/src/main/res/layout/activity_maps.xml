@@ -25,29 +25,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <ProgressBar
+        android:indeterminateTint="#FF9800"
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="125dp"
         android:background="#2d2d2d"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:fontFamily="@font/montserrat"
+            android:layout_height="40dp"
+            android:fontFamily="@font/montaga"
             android:gravity="center"
-            android:text="EZ WALK"
+            android:text="PATH ANGEL"
             android:textColor="#FFFFC107"
-            android:textSize="25sp"
-            android:textStyle="bold" />
+            android:textSize="25sp" />
 
         <fragment
             android:id="@+id/autocomplete_fragment"
             android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp" />
 
         <fragment
             android:id="@+id/autocomplete_fragment2"
@@ -55,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="1dp"
             android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
@@ -73,3 +80,6 @@
         app:itemTextColor="#FF9800"/>
 
 </RelativeLayout>
+
+
+

@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/amarante</item>
+        <item>@font/arapey</item>
         <item>@font/averia_libre_light</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/bilbo_swash_caps</item>
         <item>@font/cantora_one</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/dancing_script</item>
+        <item>@font/delius</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/flavors</item>
+        <item>@font/julee</item>
+        <item>@font/kite_one</item>
+        <item>@font/merienda</item>
+        <item>@font/miniver</item>
+        <item>@font/montaga</item>
         <item>@font/montserrat</item>
+        <item>@font/original_surfer</item>
+        <item>@font/pacifico</item>
+        <item>@font/princess_sofia</item>
+        <item>@font/roboto_slab_light</item>
         <item>@font/roboto_slab_thin</item>
+        <item>@font/satisfy</item>
+        <item>@font/vampiro_one</item>
+        <item>@font/zeyada</item>
     </array>
 </resources>
