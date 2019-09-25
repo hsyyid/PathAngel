@@ -17,7 +17,7 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 driver.implicitly_wait(3)
 
-gmaps = googlemaps.Client(key='***REMOVED***')
+gmaps = googlemaps.Client(key=os.environ['API_KEY'])
 
 app = Flask(__name__)
 
