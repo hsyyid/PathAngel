@@ -92,7 +92,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "***REMOVED***");
+            Places.initialize(getApplicationContext(), System.getenv("API_KEY"));
         }
 
         placesClient = Places.createClient(this);
